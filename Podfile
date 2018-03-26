@@ -7,6 +7,11 @@ target 'iOSTest' do
 
   # Pods for iOSTest
 
+pod 'AFNetworking'
+pod 'Masonry'
+pod 'SDWebImage'
+pod 'FMDB'
+
   target 'iOSTestTests' do
     inherit! :search_paths
     # Pods for testing
